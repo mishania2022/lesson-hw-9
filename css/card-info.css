@@ -1,0 +1,102 @@
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+   
+
+@media screen and (max-width: 1024px) {
+.card-info {
+  width: 31.98%;          
+}
+}
+
+@media screen and (max-width: 320px) {
+.card-info {
+  margin: 0 auto;
+}
+}
+
+.card-info__img {
+  width: 92px;
+  height: 92px;
+  margin: 39px;
+  border: 1px solid #EC7979;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media  screen and (max-width: 1024px)  {
+.card-info__img {
+  width: 79.55px;
+  height: 79.55px;
+  margin: 33.72px;
+  border: 1px solid #EC7979;
+}
+}
+
+.card-info__img-lamp{
+    background-image: url(../image/lamp.svg);
+}
+
+@media screen and (max-width: 1024px) {
+.card-info__img-lamp{
+  background-image: url(../image/image-tablet/lamp.svg);
+}
+}
+
+.card-info__img-keyboard{
+    background-image: url(../image/keyboard.svg);
+}
+
+@media screen and (max-width: 1024px) {
+.card-info__img-keyboard{
+  background-image: url(../image/image-tablet/keyboard.svg);
+}
+}
+
+.card-info__img-flash{
+    background-image: url(../image/flash.svg);
+}
+
+@media screen and (max-width: 1024px) {
+.card-info__img-flash{
+  background-image: url(../image/image-tablet/flash.svg);
+}
+}
+
+.card-info__heading {
+  padding: 32px 0;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+@media screen and (max-width: 1024px) {
+.card-info__heading {
+   font-size: 18px;
+   line-height: 25px;
+}
+}
+
+.card-info__content  {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+@media screen and (max-width: 1024px) {
+.card-info__content  {
+  font-size: 14px;
+  line-height: 16px;
+}
+}
