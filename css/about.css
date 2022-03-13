@@ -73,6 +73,12 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+  .about__info {
+    padding: 0 16px;        
+  }
+  }
+
 @media screen and (max-width: 320px) {
 .about__info {
   display: block;
@@ -81,5 +87,22 @@
 }
 
 .about__card{
-  flex-basis: 31.63%;
+  flex-grow: 1;
+  margin-right: 30px;
 }
+
+.about__card:last-child{
+   margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__card {
+    margin-right: 20px;          
+  }
+  }
+  
+  @media screen and (max-width: 320px) {
+  .about__card {
+    margin: 0 auto;
+  }
+  }

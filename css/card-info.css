@@ -3,19 +3,6 @@
   flex-direction: column;
   align-items: center;  
 }
-   
-
-@media screen and (max-width: 1024px) {
-.card-info {
-  width: 31.98%;          
-}
-}
-
-@media screen and (max-width: 320px) {
-.card-info {
-  margin: 0 auto;
-}
-}
 
 .card-info__img {
   width: 92px;
